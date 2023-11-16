@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link rel="stylesheet" href="~/Content/bootstrap/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="~/Scripts/feacdbac3c.js"></script>
+</head>
+<body>
+    <nav class="navbar" id="navBar" style="background-color: white; border-bottom: 5px solid #FFBE33; ">
+        <a id="logoLink" class="navbar-brand" href="seleccion.aspx">
+            <img src="~/Content/images/continental_logo_orange_medium.png" width="135" height="25" alt="">
+        </a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <hr />
+    <footer>
+        <p class="text-center">&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+    </footer>
+
+</body>
+</html>
